@@ -12,7 +12,7 @@ while(1):
         else:
             continue
 
-    if a =="rock" and b == "scissors":
+    elif a =="rock" and b == "scissors":
         print("A wins")
         print("Rematch?")
         print("y/n")
@@ -21,8 +21,8 @@ while(1):
         else:
             continue
 
-    if a =="rock" and b == "paper":
-        print("B wins")
+    elif a =="paper" and b == "rock":
+        print("A wins")
         print("Rematch?")
         print("y/n")
         if input() == "n":
@@ -30,4 +30,20 @@ while(1):
         else:
             continue
 
-# etc....
+    elif a =="scissors" and b == "paper":
+        print("A wins")
+        print("Rematch?")
+        print("y/n")
+        if input() == "n":
+            break
+        else:
+            continue
+
+    else:
+        print("B wins")
+        print("Rematch?")
+        print("y/n")
+        if input() == "n":
+            break
+        else:
+            continue
