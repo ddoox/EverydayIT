@@ -1,2 +1,3 @@
 .idea/
 venv/
+/Python things/geckodriver.log
