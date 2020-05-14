@@ -1,4 +1,3 @@
-#TODO: binary on indexes
 def binary(_list, _element):
     found = False
 

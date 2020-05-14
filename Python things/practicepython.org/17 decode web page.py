@@ -17,7 +17,7 @@ import bs4
 #
 
 sauce = requests.get("https://niebezpiecznik.pl")
-soup = bs4.BeautifulSoup(sauce.text, "lxml")
+soup = bs4.BeautifulSoup(sauce.text, features="html.parser")
 
 titles = soup.find_all()
 
