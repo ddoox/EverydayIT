@@ -1,4 +1,3 @@
-#TODO: exercise
 def op():
     _file = open("file.txt")
     return _file
