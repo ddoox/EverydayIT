@@ -1,1 +1,1 @@
-# EverydayIT
+# RegularIT
