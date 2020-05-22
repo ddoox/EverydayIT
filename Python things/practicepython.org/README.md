@@ -1,0 +1,1 @@
+Easy Python exercises. Great for start with new language.
